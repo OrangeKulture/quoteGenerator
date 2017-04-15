@@ -1,0 +1,57 @@
+body {
+  background: radial-gradient(circle, #8ff7f2, #8ff7c1);
+}
+
+.mainT {
+  font-family: 'Cinzel', serif;
+  margin-top: 1.75em;
+  letter-spacing: 0.25em;
+  font-size: 3em;
+  color: #5c5e5e;
+}
+
+.mainH {
+  font-family: 'Cinzel', serif;
+  margin-top: 1.55em;
+  color: #5c5e5e;
+  visibility: hidden;
+}
+
+#mainB {
+  margin-top: 25px;
+  color: #5c5e5e;
+  border-radius: 0;
+  background: none;
+  border: 2px solid #5c5e5e;
+  width: 12%;
+}
+
+#mainB:hover {
+  transform: scale(1.05);
+}
+
+#mainB:active {
+  transform: translateY(4px);
+  color: #282727;
+}
+
+.content {
+  visibility: hidden;
+  margin-top: 25px;
+  background: rgba(204, 206, 206, 0.25);
+}
+
+#quote {
+  font-family: 'Kalam', cursive;
+  color: #474747;
+  padding-top: 25px;
+}
+
+#author {
+  color: #474747;
+  padding-bottom: 10px;
+  text-align: right;
+  padding-right: 150px;
+  font-style: italic;
+  font-size: 1.25em;
+}
