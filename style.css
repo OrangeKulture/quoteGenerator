@@ -36,9 +36,12 @@ body {
 }
 
 .content {
-  visibility: hidden;
   margin-top: 25px;
   background: rgba(204, 206, 206, 0.25);
+}
+
+.content p {
+  font-size: 1.5em;
 }
 
 #quote {
@@ -53,5 +56,5 @@ body {
   text-align: right;
   padding-right: 150px;
   font-style: italic;
-  font-size: 1.25em;
+  font-size: 1.05em;
 }
