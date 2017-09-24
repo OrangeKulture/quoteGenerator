@@ -1,2 +1,2 @@
 # Random Quote Generator
-Random quotes from famous people throughout history. Made using a REST API request
+Random Desing Quotes using the quotesondesign.com REST API to generate new quotes.
